@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nima Najarzadeh - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="hero-section">
+            <div class="hero-content">
+            <div class="profile-image">
+<img src="photo20143539905 (1).jpg" alt="Nima Najarzadeh">
+
+    <div class="status-indicator"></div>
+</div>
+
+                <h1 class="name-title">Nima Najarzadeh</h1>
+                <p class="subtitle">Frontend Developer • SAMPAD Student</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('skills')">
+                        <i class="fas fa-rocket"></i>
+                        My Skills
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('contact')">
+                        <i class="fab fa-telegram"></i>
+                        Contact Me
+                    </button>
+                </div>
+            </div>
+            <div class="floating-elements">
+                <div class="floating-icon" style="--delay: 0s">💻</div>
+                <div class="floating-icon" style="--delay: 1s">🚀</div>
+                <div class="floating-icon" style="--delay: 2s">⚡</div>
+                <div class="floating-icon" style="--delay: 3s">🎯</div>
+                <div class="floating-icon" style="--delay: 4s">💛</div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro-text">
+                        Hi! I'm Nima Najarzadeh, a 14-year-old student at SAMPAD who loves programming and web development.  
+                        I'm currently learning various frontend skills and always excited to explore new technologies.  
+                        For me, coding is not just a skill, it's my true passion!
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">14</div>
+                            <div class="stat-label">Years Old</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Motivation to Learn</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h3>HTML</h3>
+                    <p>Structure and semantics of web pages</p>
+                    <div class="skill-progress"><div class="progress-bar" data-progress="85"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h3>CSS</h3>
+                    <p>Beautiful styling and design</p>
+                    <div class="skill-progress"><div class="progress-bar" data-progress="80"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                    <h3>JavaScript</h3>
+                    <p>Interaction and page dynamics</p>
+                    <div class="skill-progress"><div class="progress-bar" data-progress="75"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-react"></i></div>
+                    <h3>React</h3>
+                    <p>Powerful UI library</p>
+                    <div class="skill-progress"><div class="progress-bar" data-progress="70"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <h3>Python</h3>
+                    <p>General-purpose programming language</p>
+                    <div class="skill-progress"><div class="progress-bar" data-progress="65"></div></div>
+                </div>
+                <!-- New Skills -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                    <h3>Git</h3>
+                    <p>Version control system</p>
+                    <div class="skill-progress"><div class="progress-bar" data-progress="70"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p>Collaboration & code hosting</p>
+                    <div class="skill-progress"><div class="progress-bar" data-progress="75"></div></div>
+                </div>
+                <div class="skill-card learning">
+                    <div class="skill-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Always Learning</h3>
+                    <p>Ready to learn more every day</p>
+                    <div class="skill-progress"><div class="progress-bar learning-bar" data-progress="100"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section class="interests-section" id="interests">
+            <div class="section-header">
+                <h2>My Interests</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon"><i class="fas fa-code"></i></div>
+                    <h3>Coding</h3>
+                    <p>My true love! I enjoy writing clean and efficient code</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Building beautiful and useful websites</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Learning</h3>
+                    <p>Always seeking new knowledge and technologies</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Innovation</h3>
+                    <p>I love turning creative ideas into reality</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-intro">I’m open to collaboration and discussions about exciting projects!</p>
+                <div class="contact-methods">
+                    <!-- Telegram -->
+                    <a href="https://t.me/Nima_Najarzade" class="contact-card" target="_blank">
+                        <div class="contact-icon"><i class="fab fa-telegram"></i></div>
+                        <div class="contact-info">
+                            <h3>Telegram</h3>
+                            <p>@Nima_Najarzade</p>
+                        </div>
+                    </a>
+                    <!-- Gmail -->
+                    <a href="mailto:nimanajarzadehps@gmail.com" class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>nimanajarzadehps@gmail.com</p>
+                        </div>
+                    </a>
+                    <!-- Phone -->
+                    <a href="tel:+989036717368" class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-info">
+                            <h3>Phone</h3>
+                            <p>+98 09036717368</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Nima Najarzadeh. Built with ❤️ and coding</p>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#interests">Interests</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
